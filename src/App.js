@@ -22,6 +22,7 @@ function App() {
 
   return (
     <div className="App">
+      
       <header className="header">
         <div className="container">
           <div className="header_inner">
@@ -38,6 +39,7 @@ function App() {
       </div>
     </div>
   </header>
+
 <div className="intro">
   <div className="container">
     <div className="intro_inner">
@@ -88,7 +90,7 @@ function App() {
       </div>
   </div>
     
-    <section className="design">
+      <div className="section">
       <div className="container">
         <div className="section_header">
           <div className="section_title">
@@ -103,13 +105,19 @@ function App() {
           The background of an element is the total size of the element, including padding and border (but not the margin).
           </div>
         </div>
+        </div>
+        </div>
         <div className="comments">
-          <div className="comments_text">Sets all the properties for a list in one declarationSets all the properties for a list in one declarationSets all the properties for a list in one declaration</div>
+          <div className="comments_text">
+            Sets all the properties for a list in one declarationSets all the properties for a list in one declarationSets all the properties for a list in one declarationdss
             <div className="author">
               <div className="comments_author">Yulia</div>
-              <div className="comments_job">Russian Language Sttdent</div>
-            </div>        
+              <div className="comments_job">Russian Language Student</div>
+            </div>   
+            </div>     
         </div>
+        <div className="section">
+        <div className="container"> 
         <div className="section_header">
             <div className="design_title">
               The problem
@@ -125,8 +133,10 @@ function App() {
           Specifies the position of the list-item markers (bullet points)
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+        </div>
+
+
     <div className="phone_photo">
         <div className="phone_card">
           <img src={Phone1} alt=""/>

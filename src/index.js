@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './App.css';
+import './App.sass';
 import Header from './Layout/Header';
 import Intro from './Layout/Intro';
 import Product_section from './Layout/Product_section';

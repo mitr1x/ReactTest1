@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './App.css';
-import './App.sass';
+import './Styles/App.scss';
 import Header from './Layout/Header';
 import Intro from './Layout/Intro';
 import Product_section from './Layout/Product_section';
@@ -11,7 +9,6 @@ import Comments from './Layout/Comments_info';
 import Phone_photo from './Layout/Phone_photo';
 import Web_photo from './Layout/web_photo';
 import Footer from './Layout/footer';
-
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -24,7 +21,6 @@ ReactDOM.render(
       <Phone_photo />
       <Web_photo />
       <Footer />
-  
   </React.StrictMode>,
   document.getElementById('root')
 );

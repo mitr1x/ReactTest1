@@ -1,0 +1,26 @@
+@import 'Mixin';
+/* ------------------------- */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: url("../Images/people2.png") 50%/cover no-repeat;
+  }
+  .intro_title{
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.1;
+    color: $white;
+    margin-bottom: 30px;
+  }
+  .intro_inner{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .intro_subtitle{
+    text-align: center;
+    font-size: $fs_text;
+    color: $white;
+  }

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../Styles/Phone_photo_style.scss';
 import Phone1 from '../Images/Lingua phone 1.png';
 import Phone2 from '../Images/Lingua phone 2.png';
 import Phone3 from '../Images/Lingua phone 3.png';

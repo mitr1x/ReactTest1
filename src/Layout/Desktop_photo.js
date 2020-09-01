@@ -1,8 +1,9 @@
 import React from 'react';
-import '../App.css'; 
+import '../Styles/Desktop_photo_style.scss';
 import desk1 from '../Images/Lingua desktop 1.png';
 import desk2 from '../Images/Lingua desktop 2.png';
 import desk3 from '../Images/Lingua desktop 3.png';
+
 function Desktop_photo() {
     return(
 <div className="tab_photo">

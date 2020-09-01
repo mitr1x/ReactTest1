@@ -1,8 +1,9 @@
 import React from 'react';
-import '../App.css';
+import '../Styles/Comments_style.scss';
 
 function Comments() {
   return (
+    <div className="App">
 <div className="comments_info">
     <div className="section">
         <div className="container">
@@ -47,6 +48,7 @@ function Comments() {
         </div>
         </div>
     </div>
+</div>
 </div>
   )
   }

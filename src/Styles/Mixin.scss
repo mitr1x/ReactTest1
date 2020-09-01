@@ -1,0 +1,30 @@
+@mixin logo {
+    height: 40px;
+    width: 40px;
+}
+@mixin row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+}
+@mixin hover_link {
+    cursor: pointer;
+    color:black
+  }
+  @mixin link{
+    position: relative;
+    color: #ffffff;
+    vertical-align: top;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    
+  }
+//   ------------------------------------------
+//   CONST
+
+  $white: #ffffff;
+  $fs_text: 16px;
+  $maxwidth: 1200px;
+  $photowidth: 100%;
+

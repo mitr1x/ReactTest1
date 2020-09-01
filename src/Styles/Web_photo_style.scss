@@ -1,0 +1,17 @@
+@import 'Mixin';
+// -----------------------
+.top{
+  @include row;
+    padding: 40px 30px 0 30px;
+    background-color: #009526;
+  }
+  .bottom{
+    @include row;
+    background-color: #009526;
+    padding-bottom:40px ;
+  }
+  .web_item {
+  img{
+    width: $photowidth;
+  }
+}

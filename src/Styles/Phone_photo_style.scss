@@ -1,0 +1,13 @@
+@import 'Mixin';
+// ---------------------
+.phone_photo{
+    @include row;
+    padding: 140px 60px;
+    background-color: #2e2e42;
+  }
+  .phone_card{
+    margin: 0 20px;
+  }
+  .phone_card img{
+    width: $photowidth;
+  }

@@ -1,7 +1,6 @@
 import React from 'react';
-import '../App.css'; 
+import '../Styles/Product_section_style.scss';
 
- 
 function Product_section() {
     return(
         <div className="Product_section">   

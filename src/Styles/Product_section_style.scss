@@ -1,0 +1,27 @@
+@import 'Mixin';
+// -----------------------
+.section{
+    padding: 80px 80px;
+  }
+  .section + section{
+    padding-top: 0px;
+  }
+  .section_title{
+    font-size: 24px;
+    color: black;
+    text-transform: uppercase;
+  }
+  .section_title:after{
+   content: "";
+   display: block;
+   width: 60px;
+   height: 3px; 
+   background-color: green;
+   margin: 20px 0;
+  }
+  .section_text{
+    line-height: 2;
+    font-weight: 500;
+    font-size: $fs_text;
+    color: #333;
+  }

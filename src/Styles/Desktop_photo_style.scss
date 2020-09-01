@@ -1,0 +1,14 @@
+@import 'Mixin';
+// ---------------------
+.tab_photo{
+    padding: 140px 0;
+    background-color: #808080;
+    @include row;
+  }
+  .tab_item_center{
+    margin: 0 120px;
+  }
+  .desk_photo img{
+    width: $photowidth;
+  }
+  

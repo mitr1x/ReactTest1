@@ -1,7 +1,6 @@
 import React from 'react';
-import '../App.css'; 
+import '../Styles/Intro_style.scss';
 
- 
 function Intro() {
     return(
  <div className="intro">

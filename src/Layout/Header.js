@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../Images/logo.svg';
-import '../App.css';
+import '../Styles/Mixin.scss';
+import '../Styles/Header_style.scss';
 
 
 function Header() {
